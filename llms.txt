@@ -1,0 +1,62 @@
+# Charlotte
+
+> Geotechnical engineering company in United States, providing professional services in soil mechanics, foundation engineering and site investigation.
+
+## Services
+- [Base Isolation Seismic Design](https://charlotte.geotechnicalengineering1.sbs/base-isolation-seismic-design/)
+- [Cbr Study Road Design](https://charlotte.geotechnicalengineering1.sbs/cbr-study-road-design/)
+- [Collapsible Soil Evaluation](https://charlotte.geotechnicalengineering1.sbs/collapsible-soil-evaluation/)
+- [Cone Penetration](https://charlotte.geotechnicalengineering1.sbs/cone-penetration/)
+- [Contaminated Soil Remediation](https://charlotte.geotechnicalengineering1.sbs/contaminated-soil-remediation/)
+- [Debris Flow Analysis](https://charlotte.geotechnicalengineering1.sbs/debris-flow-analysis/)
+- [Deep Soil Mixing](https://charlotte.geotechnicalengineering1.sbs/deep-soil-mixing/)
+- [Diaphragm Wall Design](https://charlotte.geotechnicalengineering1.sbs/diaphragm-wall-design/)
+- [Differential Settlement Analysis](https://charlotte.geotechnicalengineering1.sbs/differential-settlement-analysis/)
+- [Direct Shear](https://charlotte.geotechnicalengineering1.sbs/direct-shear/)
+- [Electrical Resistivity Ves](https://charlotte.geotechnicalengineering1.sbs/electrical-resistivity-ves/)
+- [Existing Pavement Evaluation](https://charlotte.geotechnicalengineering1.sbs/existing-pavement-evaluation/)
+- [Expansive Soil Evaluation](https://charlotte.geotechnicalengineering1.sbs/expansive-soil-evaluation/)
+- [Field Density](https://charlotte.geotechnicalengineering1.sbs/field-density/)
+- [Field Permeability](https://charlotte.geotechnicalengineering1.sbs/field-permeability/)
+- [Field Vane Shear](https://charlotte.geotechnicalengineering1.sbs/field-vane-shear/)
+- [Flat Dilatometer](https://charlotte.geotechnicalengineering1.sbs/flat-dilatometer/)
+- [Flexible Pavement Design](https://charlotte.geotechnicalengineering1.sbs/flexible-pavement-design/)
+- [Foundations](https://charlotte.geotechnicalengineering1.sbs/foundations/)
+- [Geocell Design](https://charlotte.geotechnicalengineering1.sbs/geocell-design/)
+- [Geomembrane Specification](https://charlotte.geotechnicalengineering1.sbs/geomembrane-specification/)
+- [Geophysics](https://charlotte.geotechnicalengineering1.sbs/geophysics/)
+- [Geotechnical Analysis Soft Soil](https://charlotte.geotechnicalengineering1.sbs/geotechnical-analysis-soft-soil/)
+- [Geotechnical Excavation Monitoring](https://charlotte.geotechnicalengineering1.sbs/geotechnical-excavation-monitoring/)
+- [Geotechnical Road Drainage](https://charlotte.geotechnicalengineering1.sbs/geotechnical-road-drainage/)
+- [Geotechnical Slope Monitoring](https://charlotte.geotechnicalengineering1.sbs/geotechnical-slope-monitoring/)
+- [Grain Size Analysis](https://charlotte.geotechnicalengineering1.sbs/grain-size-analysis/)
+- [Ground Improvement](https://charlotte.geotechnicalengineering1.sbs/ground-improvement/)
+- [Grouting Design](https://charlotte.geotechnicalengineering1.sbs/grouting-design/)
+- [Hvsr Microtremor Survey](https://charlotte.geotechnicalengineering1.sbs/hvsr-microtremor-survey/)
+- [In Situ Testing](https://charlotte.geotechnicalengineering1.sbs/in-situ-testing/)
+- [Investigation](https://charlotte.geotechnicalengineering1.sbs/investigation/)
+- [Laboratory](https://charlotte.geotechnicalengineering1.sbs/laboratory/)
+- [Laboratory Cbr](https://charlotte.geotechnicalengineering1.sbs/laboratory-cbr/)
+- [Laboratory Permeability](https://charlotte.geotechnicalengineering1.sbs/laboratory-permeability/)
+- [Landfill Geotechnics](https://charlotte.geotechnicalengineering1.sbs/landfill-geotechnics/)
+- [Landslide Assessment](https://charlotte.geotechnicalengineering1.sbs/landslide-assessment/)
+- [Lime Cement Stabilization](https://charlotte.geotechnicalengineering1.sbs/lime-cement-stabilization/)
+- [Mechanically Stabilized Earth](https://charlotte.geotechnicalengineering1.sbs/mechanically-stabilized-earth/)
+- [Menard Pressuremeter](https://charlotte.geotechnicalengineering1.sbs/menard-pressuremeter/)
+- [Pile Foundation Design](https://charlotte.geotechnicalengineering1.sbs/pile-foundation-design/)
+- [Pile Skin Friction Vs](https://charlotte.geotechnicalengineering1.sbs/pile-skin-friction-vs/)
+- [Plate Load](https://charlotte.geotechnicalengineering1.sbs/plate-load/)
+- [Porchet Double Ring Infiltrometer](https://charlotte.geotechnicalengineering1.sbs/porchet-double-ring-infiltrometer/)
+- [Prefabricated Vertical Drain](https://charlotte.geotechnicalengineering1.sbs/prefabricated-vertical-drain/)
+- [Preloading Design](https://charlotte.geotechnicalengineering1.sbs/preloading-design/)
+- [Raft Mat Foundation Design](https://charlotte.geotechnicalengineering1.sbs/raft-mat-foundation-design/)
+- [Refraction Reflection](https://charlotte.geotechnicalengineering1.sbs/refraction-reflection/)
+- [Residual Soil Characterization](https://charlotte.geotechnicalengineering1.sbs/residual-soil-characterization/)
+- [Retaining Wall Design](https://charlotte.geotechnicalengineering1.sbs/retaining-wall-design/)
+
+## Contact
+- Website: https://charlotte.geotechnicalengineering1.sbs/
+
+## About
+This page provides information about geotechnical engineering services available in United States.
+The company complies with local and international standards including ASTM, ISO and country-specific norms.
