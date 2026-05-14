@@ -116,6 +116,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#E76F51) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head><body>
 
 <header class="header">
@@ -144,7 +180,7 @@ header.hero, .hero { position: relative !important; }
 
         <h2>Scope of work</h2><div>One common mistake we see in Charlotte is skipping in-situ permeability testing entirely, relying instead on grain-size correlations or lab tests on remolded samples. That approach ignores the macro-structure of the residual soil — the root holes, slickensides, and relict joints that control real-world flow. The field permeability test (Lefranc/Lugeon) addresses this directly by measuring flow under controlled head in the actual borehole. Key features of how we execute it in Charlotte: <ul><li>Constant-head (Lefranc) for soils and saprolite, with test durations of 30–90 minutes per stage to reach steady-state.</li><li>Packer-based Lugeon tests in rock, applying five pressure stages (up to 10 bars) to detect hydrofracturing or joint dilation.</li><li>Field log of water level recovery between stages to estimate storativity.</li></ul>We integrate these results with MASW and Vs30 profiling to correlate permeability with seismic velocity zones, giving a more complete picture for IBC-compliant designs.</div>
         <figure style="margin:1.5rem auto;max-width:60%;border-radius:6px;overflow:hidden;border:1px solid #E5E5E5"></figure>
-        <h2>Area-specific notes</h2><p>The Piedmont saprolite in Charlotte often exhibits a shallow groundwater table — sometimes within 10 to 15 feet of the surface during wet seasons — combined with clayey residual soils that can mask open fractures in the underlying rock. If a contractor assumes uniform low permeability everywhere, they risk catastrophic under-design of dewatering systems or over-excavation for foundations. We have seen cases where a standard SPT program alone missed a fractured zone that later caused a retaining wall to lean during excavation; a Lugeon test in that same borehole would have flagged the issue at the investigation stage. Applying the field permeability test at the right borehole intervals clarifies where grouting, drainage, or cutoff walls are actually needed.</p>
+        <h2>Area-specific notes</h2><p>The Piedmont saprolite in Charlotte often exhibits a shallow groundwater table — sometimes within 10 to 15 feet of the surface during wet seasons — combined with clayey residual soils that can mask open fractures in the underlying rock. If a contractor assumes uniform low permeability everywhere, they risk catastrophic under-design of dewatering systems or over-excavation for <a href="/foundations/">foundations</a>. We have seen cases where a standard SPT program alone missed a fractured zone that later caused a retaining wall to lean during excavation; a Lugeon test in that same borehole would have flagged the issue at the investigation stage. Applying the field permeability test at the right borehole intervals clarifies where grouting, drainage, or cutoff walls are actually needed.</p>
 
         
     <section class="block mid-cta-f189-f189" style="padding:2rem 0">

@@ -116,6 +116,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#E76F51) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+body{overflow-x:clip;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head><body>
 
 <header class="header">
@@ -144,7 +180,7 @@ header.hero, .hero { position: relative !important; }
 
         <h2>Scope of work</h2><div>On a recent 8-story apartment complex near Uptown Charlotte, the geotechnical profile showed 12 feet of stiff clay over decomposed granite, then hard rock at 35 feet. The seismic foundation design required evaluating both the bearing capacity under cyclic loading and the potential for liquefaction in the sandy clay seams — unlikely per NCEER 2001 criteria but still screened. We ran SPT borings with energy calibration per ASTM D1586-18 and correlated N-values to the modulus reduction curves (Darendeli 2001). The final solution combined spread footings on compacted structural fill with a mat foundation tying the core columns. That mix of shallow and deep elements is typical in Charlotte where the bedrock depth varies sharply across a single block. For sites near the Catawba River floodplain, where alluvial deposits dominate, the approach shifts: we rely on CPT soundings for continuous stratigraphy and evaluate cyclic resistance ratio directly from tip resistance.</div>
         <figure style="margin:1.5rem auto;max-width:60%;border-radius:6px;overflow:hidden;border:1px solid #E5E5E5"></figure>
-        <h2>Area-specific notes</h2><p>A common mistake we see in Charlotte is treating the residual soil as uniform bedrock — then a building gets designed with a high bearing pressure that works under static load but fails in cyclic shear. The weathered zone, often 5 to 15 feet thick, can lose up to 40% of its undrained strength during earthquake shaking. If the foundation ignores that degradation, you get differential settlement in the first moderate event. We always require cyclic triaxial testing on undisturbed samples from that layer to calibrate the strength loss. Skipping that step means you are designing blind, and the liability falls on the structural engineer when the cracks show up.</p>
+        <h2>Area-specific notes</h2><p>A common mistake we see in Charlotte is treating the residual soil as uniform bedrock — then a building gets designed with a high bearing pressure that works under static load but fails in cyclic shear. The weathered zone, often 5 to 15 feet thick, can lose up to 40% of its undrained strength during earthquake shaking. If the foundation ignores that degradation, you get differential settlement in the first moderate event. We always require cyclic <a href="/triaxial/">triaxial</a> testing on undisturbed samples from that layer to calibrate the strength loss. Skipping that step means you are designing blind, and the liability falls on the structural engineer when the cracks show up.</p>
 
         
     <section class="block mid-cta-f189-f189" style="padding:2rem 0">

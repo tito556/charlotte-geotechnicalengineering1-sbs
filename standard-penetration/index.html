@@ -116,6 +116,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#E76F51) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+body{overflow-x:clip;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head><body>
 
 <header class="header">
@@ -144,7 +180,7 @@ header.hero, .hero { position: relative !important; }
 
         <h2>Scope of work</h2><div>A typical job we worked on in SouthPark involved a 14-story residential tower. The geotechnical program required SPT borings every 50 feet across the site, and the N-values ranged from 8 to 14 in the upper clayey sands, then jumped to 50+ refusal in the PWR at 28 feet. That split told us we could design spread footings on the weathered rock rather than driving piles. The SPT hammer energy is calibrated on-site to account for rod length and anvil weight, and we log everything from soil color to moisture changes. For projects on the I-485 corridor, we supplement SPT data with MASW to map the bedrock profile continuously between boreholes. In fill areas near the airport, we run SPT every two feet to check compaction consistency. The test also provides disturbed samples for index testing, which we send to the lab for afterberg limits and grain-size distribution.</div>
         <figure style="margin:1.5rem auto;max-width:60%;border-radius:6px;overflow:hidden;border:1px solid #E5E5E5"></figure>
-        <h2>Area-specific notes</h2><p>Charlotte sits on the eastern edge of the Appalachian seismic zone, where the 1886 Charleston earthquake caused noticeable ground shaking. Modern IBC seismic design categories range from B to C depending on site class, and the SPT N-value is the primary input for determining site class per ASCE 7-22. A site with soft residual soils can amplify ground motions significantly. We have seen projects where ignoring the SPT-based site classification led to underestimating the design spectral acceleration by nearly 30%. That is not a margin you want to gamble with on a 12-story structure. In the Waverly area, we identified a liquefiable sand lens at 18 feet through SPT borings that would have been missed with probing alone.</p>
+        <h2>Area-specific notes</h2><p>Charlotte sits on the eastern edge of the Appalachian <a href="/seismic/">seismic</a> zone, where the 1886 Charleston earthquake caused noticeable ground shaking. Modern IBC seismic design categories range from B to C depending on site class, and the SPT N-value is the primary input for determining site class per ASCE 7-22. A site with soft residual soils can amplify ground motions significantly. We have seen projects where ignoring the SPT-based site classification led to underestimating the design spectral acceleration by nearly 30%. That is not a margin you want to gamble with on a 12-story structure. In the Waverly area, we identified a liquefiable sand lens at 18 feet through SPT borings that would have been missed with probing alone.</p>
 
         
     <section class="block mid-cta-f189-f189" style="padding:2rem 0">

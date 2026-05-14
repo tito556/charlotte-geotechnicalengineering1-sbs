@@ -116,6 +116,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#E76F51) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+body{overflow-x:clip;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head><body>
 
 <header class="header">
@@ -144,7 +180,7 @@ header.hero, .hero { position: relative !important; }
 
         <h2>Scope of work</h2><div>Charlotte’s humid subtropical climate accelerates chemical weathering, creating deep saprolite profiles that retain the parent rock’s relict structure. This makes residual soil characterization especially tricky — the soil may look like clay but behave like a weak rock under load. The local geology around the Catawba River basin produces soils with high silt content and variable plasticity. Standard classification alone (ASTM D2487) misses the anisotropic strength that matters for cut slopes and retaining walls. For highway embankments along I-85, engineers regularly cross-check lab results with field <a href="../field-permeability/">permeability tests</a> to model drainage through the weathered profile. It is a layered challenge that demands site-specific sampling, not generic data.</div>
         <figure style="margin:1.5rem auto;max-width:60%;border-radius:6px;overflow:hidden;border:1px solid #E5E5E5"></figure>
-        <h2>Area-specific notes</h2><p>A common mistake is treating residual soils in Dilworth the same as those in University City. The mica content and degree of weathering vary block by block. In some Charlotte neighborhoods, construction on untreated saprolite has triggered slow, progressive settlement that cracks masonry walls years later. Ignoring the relict joint structure in the soil can also lead to unexpected seepage paths during basement excavation — especially near the Sugar Creek watershed. Residual soil characterization identifies these risks before concrete is poured, giving the design team data to decide whether shallow footings or deep foundations are needed for each specific lot.</p>
+        <h2>Area-specific notes</h2><p>A common mistake is treating residual soils in Dilworth the same as those in University City. The mica content and degree of weathering vary block by block. In some Charlotte neighborhoods, construction on untreated saprolite has triggered slow, progressive settlement that cracks masonry walls years later. Ignoring the relict joint structure in the soil can also lead to unexpected seepage paths during basement excavation — especially near the Sugar Creek watershed. Residual soil characterization identifies these risks before concrete is poured, giving the design team data to decide whether shallow footings or deep <a href="/foundations/">foundations</a> are needed for each specific lot.</p>
 
         
     <section class="block mid-cta-f189-f189" style="padding:2rem 0">

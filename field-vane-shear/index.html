@@ -116,6 +116,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#E76F51) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head><body>
 
 <header class="header">
@@ -144,7 +180,7 @@ header.hero, .hero { position: relative !important; }
 
         <h2>Scope of work</h2><div>A common mistake made by construction teams in Charlotte is assuming that standard penetration test N-values alone can characterize soft clays. They cannot. SPT blow counts in plastic clays are often near zero, producing no useful strength data. The VST directly measures undrained shear strength in place, avoiding sample disturbance. Key parameters obtained include peak undrained shear strength (su), remolded strength, and sensitivity. The test follows a step sequence: advance casing to test depth, clean the borehole, insert the vane, rotate at 6–12 deg/min, record peak, then rotate rapidly 10 turns for remolded reading. Results are used to compute bearing capacity for shallow foundations and to evaluate slope stability in Charlotte's creek-side fills. For projects involving deep excavations, combining VST with monitoreo de excavaciones provides continuous safety verification during cut stages.</div>
         <figure style="margin:1.5rem auto;max-width:60%;border-radius:6px;overflow:hidden;border:1px solid #E5E5E5"></figure>
-        <h2>Area-specific notes</h2><p>Consider the difference between the sandy Piedmont soils in southeast Charlotte near Matthews and the soft alluvial clays along the Catawba River floodplain in northwest Mecklenburg. In the floodplain, undrained shear strengths can drop below 15 kPa. A foundation designed using only SPT data would underestimate settlement and bearing failure risk. The VST captures the actual in-place strength of these soft layers. Ignoring this distinction has led to differential settlement in several warehouse slabs near Interstate 485. The VST provides direct measurement of the strain-softening behavior that governs progressive failure in these clays. For embankment stability, we also use ensayo triaxial to model drained conditions once strength gain from consolidation is considered.</p>
+        <h2>Area-specific notes</h2><p>Consider the difference between the sandy Piedmont soils in southeast Charlotte near Matthews and the soft alluvial clays along the Catawba River floodplain in northwest Mecklenburg. In the floodplain, undrained shear strengths can drop below 15 kPa. A foundation designed using only SPT data would underestimate settlement and bearing failure risk. The VST captures the actual in-place strength of these soft layers. Ignoring this distinction has led to differential settlement in several warehouse slabs near Interstate 485. The VST provides direct measurement of the strain-softening behavior that governs progressive failure in these clays. For embankment stability, we also use ensayo <a href="/triaxial/">triaxial</a> to model drained conditions once strength gain from consolidation is considered.</p>
 
         
     <section class="block mid-cta-f189-f189" style="padding:2rem 0">
